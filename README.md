@@ -74,4 +74,15 @@
       또한 이진 분류의 평가 지표로는 혼동 행렬과 ROC 커브를 활용하여 성능을 평가하였습니다.
     </p>
   </details>
+              <li>CNN (Convolutional Neural Network)</li>
+  <details>
+  <summary>I3D (Inflated 3D CNN) 모델을 활용한 동작 인식</summary>
+    <p>
+      Kaggle 노트북 'Action Recognition with i3d-kinetics (400)'을 기반으로 한 I3D 모델을 활용한 동작 인식 실험입니다. 
+      이 모델은 사전 훈련된 Kinetics 데이터셋을 기반으로 하며, 실험에서는 해당 데이터셋의 동작 레이블을 활용하여 선택된 동영상에 대한 상위 5가지 동작을 예측하는 테스트를 수행했습니다. 
+      실험에는 UCF101 데이터셋에서 선택한 비디오와 YouTube에서 가져온 '피아노 연주'와 '타이핑' 동영상이 포함되었습니다. 
+      또한 결과를 평가하기 위해 Kinetics-400 데이터셋의 동작 레이블을 활용하여 모델의 예측 정확도를 확인하였습니다. 
+      이를 통해 I3D 모델이 다양한 데이터에서 상위 동작을 어떻게 예측하는지를 시각적으로 확인할 수 있었습니다.
+    </p>
+  </details>
 </ol>
