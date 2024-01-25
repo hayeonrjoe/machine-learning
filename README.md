@@ -1,9 +1,9 @@
 <h1>🤖 머신러닝 학습</h1>
 개인 학습을 위한 머신러닝 알고리즘 및 실험 저장소<br/><br/>
 
-<h2>👩‍💻 머신러닝 알고리즘 연습</h2>
+<h2>🖥️ 머신러닝 알고리즘 연습</h2>
 <ol>
-  <li>Linear Regression (선형회귀)</li>
+  <li>선형회귀 (Linear Regression)</li>
   <details>
   <summary>모의 데이터를 활용한 선형 회귀 분석</summary>
     <p>
