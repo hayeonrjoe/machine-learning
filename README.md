@@ -12,7 +12,7 @@
       또한 실제 데이터, 선형 회귀선, 잔차 및 예측 지점을 시각적으로 나타내기 위해 자세한 플롯이 작성되었습니다.
     </p>
   </details>
-    <li>의사결정 트리 (Decision Tree)</li>
+  <li>의사결정 트리 (Decision Tree)</li>
   <details>
   <summary>의사결정 트리를 활용한 웹사이트 분류</summary>
     <p>
@@ -22,18 +22,18 @@
       생성된 의사결정 트리 그래픽은 모델의 결정 과정을 시각적으로 나타냅니다.
     </p>
   </details>
-      <li>클러스터링 (Clustering)</li>
+  <li>클러스터링 (Clustering)</li>
   <details>
   <summary>텍스트 데이터를 활용한 클러스터링 분석</summary>
     <p>
-      Kaggle에서 다운로드한 웹사이트 카테고리 분류 데이터를 기반으로 한 클러스터링 분석을 수행합니다. 
+      Kaggle에서 다운로드한 'IAB 텍스트/웹사이트 분류' 데이터셋을 기반으로 한 클러스터링 분석입니다.
       데이터를 전처리하고 TF-IDF 벡터화한 후, KMeans 클러스터링을 적용하여 웹사이트를 그룹화합니다. 
       Elbow Method 및 Silhouette Score를 사용하여 최적의 클러스터 수를 찾고, 최적 클러스터 수로 모델을 학습합니다. 
       t-SNE를 활용하여 클러스터 결과를 2D로 시각화하고, 각 클러스터의 특징을 요약하여 CSV 파일로 출력합니다. 
       또한, 무작위 샘플링 및 클러스터링된 데이터를 CSV 파일로 내보내어 결과를 확인합니다.
     </p>
   </details>
-        <li>서포트 벡터 머신 (SVM, Support Vector Machine)</li>
+  <li>서포트 벡터 머신 (SVM, Support Vector Machine)</li>
   <details>
   <summary>웹사이트 분류를 위한 서포트 벡터 머신 (SVM)</summary>
     <p>
@@ -43,7 +43,7 @@
       또한, 스크립트는 t-SNE를 사용하여 SVM의 결정 경계를 시각화하여 분류기의 행동을 파악합니다.
     </p>
   </details>
-          <li>베이지안 네트워크 (Bayesian Network)</li>
+  <li>베이지안 네트워크 (Bayesian Network)</li>
   <details>
   <summary>베이지안 네트워크를 사용한 웹사이트 카테고리 분류</summary>
     <p>
@@ -53,7 +53,7 @@
       생성된 그래프는 'Streaming Services' 및 'Other Categories'에 대한 조건부 확률을 시각적으로 표현하여 웹사이트의 특정 키워드가 특정 카테고리에 속할 확률을 제시합니다.
     </p>
   </details>
-          <li>로지스틱 회귀 (Logistic Regression)</li>
+  <li>로지스틱 회귀 (Logistic Regression)</li>
   <details>
   <summary>웹사이트 카테고리 분류를 위한 로지스틱 회귀 모델링</summary>
     <p>
@@ -63,7 +63,7 @@
       또한, 의사결정 트리와 서포트 벡터 머신 테스트 결과와 비교하여 이 실험의 결과를 종합적으로 고려했습니다.
     </p>
   </details>
-            <li>LSTM 기반 신경망 (LSTM Neural Network, Long Short-Term Memory Recurrent Neural Network)</li>
+  <li>LSTM 기반 신경망 (LSTM Neural Network, Long Short-Term Memory Recurrent Neural Network)</li>
   <details>
   <summary>웹사이트 카테고리 분류를 위한 LSTM 기반 신경망 모델</summary>
     <p>
@@ -74,15 +74,29 @@
       또한 이진 분류의 평가 지표로는 혼동 행렬과 ROC 커브를 활용하여 성능을 평가하였습니다.
     </p>
   </details>
-              <li>CNN (Convolutional Neural Network)</li>
+  <li>CNN (Convolutional Neural Network)</li>
   <details>
   <summary>I3D (Inflated 3D CNN) 모델을 활용한 동작 인식</summary>
     <p>
       Kaggle 노트북 'Action Recognition with i3d-kinetics (400)'을 기반으로 한 I3D 모델을 활용한 동작 인식 실험입니다. 
+      I3D 모델은 2D 이미지 분류 DNN을 기반으로 하는 공간-시간 아키텍처이며, RGB 프레임과 연속 RGB 프레임 사이의 광학 흐름 예측을 처리하는 두 개의 3D CNN을 결합합니다.
       이 모델은 사전 훈련된 Kinetics 데이터셋을 기반으로 하며, 실험에서는 해당 데이터셋의 동작 레이블을 활용하여 선택된 동영상에 대한 상위 5가지 동작을 예측하는 테스트를 수행했습니다. 
       실험에는 UCF101 데이터셋에서 선택한 비디오와 YouTube에서 가져온 '피아노 연주'와 '타이핑' 동영상이 포함되었습니다. 
       또한 결과를 평가하기 위해 Kinetics-400 데이터셋의 동작 레이블을 활용하여 모델의 예측 정확도를 확인하였습니다. 
       이를 통해 I3D 모델이 다양한 데이터에서 상위 동작을 어떻게 예측하는지를 시각적으로 확인할 수 있었습니다.
+    </p>
+  </details>
+  <li>트랜스포머 (Transformer)</li>
+  <details>
+  <summary>DistilBERT을 활용한 종양 분류</summary>
+    <p>
+      Kaggle의 'Medical Text Dataset - Cancer Doc Classification'을 기반으로 한 DistilBERT 모델을 사용한 종양 분류 실험입니다. 
+      DistilBERT은 BERT base 모델의 간추려진 버전으로, 작고 빠르며 가벼운 트랜스포머 모델입니다.
+      실험에서는 DistilBERT를 사용하여 각 텍스트 데이터의 토큰화 및 분류를 수행하였습니다. 
+      주어진 데이터셋은 'Thyroid_Cancer', 'Colon_Cancer', 'Lung_Cancer'과 같은 3가지 범주로 분류될 수 있는 암 관련 생물 의학 텍스트 문서를 포함하고 있습니다. 
+      실험에서는 2개의 에포크로 축소하여 진행되었습니다. Google Colab의 제한으로 인해 3개의 에포크로 훈련하는 데 시간이 오래 걸렸습니다. 
+      훈련 및 검증 데이터셋으로 나눈 후, DistilBERT 모델을 학습시키고 평가하여 정확도를 확인하였습니다. 
+      실험 결과는 혼동 행렬과 분류 보고서를 통해 모델의 성능을 평가하고 있습니다.
     </p>
   </details>
 </ol>
