@@ -63,4 +63,15 @@
       또한, 의사결정 트리와 서포트 벡터 머신 테스트 결과와 비교하여 이 실험의 결과를 종합적으로 고려했습니다.
     </p>
   </details>
+            <li>LSTM 기반 신경망 (LSTM Neural Network, Long Short-Term Memory Recurrent Neural Network)</li>
+  <details>
+  <summary>웹사이트 카테고리 분류를 위한 LSTM 기반 신경망 모델</summary>
+    <p>
+      Hetul Mehta의 Kaggle에서 수집한 "웹사이트 분류" 데이터셋을 기반으로 한 웹사이트 카테고리 분류를 위한 LSTM 기반 신경망 모델을 구축하였습니다. 
+      데이터는 GloVe 워드 임베딩을 활용하여 토큰화되었고, 훈련 및 테스트를 위해 적절히 전처리되었습니다. 
+      모델은 LSTM (Long Short-Term Memory) 레이어를 통과한 후 시그모이드 활성화 함수를 사용하는 Dense 레이어로 구성되었습니다. 
+      훈련 결과를 시각적으로 나타낸 그래프와 테스트 데이터에 대한 정확도와 손실값이 제시되었습니다. 
+      또한 이진 분류의 평가 지표로는 혼동 행렬과 ROC 커브를 활용하여 성능을 평가하였습니다.
+    </p>
+  </details>
 </ol>
