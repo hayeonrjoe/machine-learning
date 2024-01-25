@@ -53,4 +53,14 @@
       생성된 그래프는 'Streaming Services' 및 'Other Categories'에 대한 조건부 확률을 시각적으로 표현하여 웹사이트의 특정 키워드가 특정 카테고리에 속할 확률을 제시합니다.
     </p>
   </details>
+          <li>로지스틱 회귀 (Logistic Regression)</li>
+  <details>
+  <summary>웹사이트 카테고리 분류를 위한 로지스틱 회귀 모델링</summary>
+    <p>
+      Hetul Mehta의 Kaggle에서 수집한 "웹사이트 분류" 데이터셋을 활용하여 로지스틱 회귀 모델을 훈련하고 웹사이트의 특징을 기반으로 'Streaming Services'와 'Other Categories'를 분류합니다. 
+      데이터를 불러오고 전처리한 후, TF-IDF 벡터화를 통해 텍스트 데이터를 수치형으로 변환합니다. 
+      훈련된 로지스틱 회귀 모델을 평가하고, 정확도, 분류 보고서, 혼동 행렬을 출력합니다. 
+      또한, 의사결정 트리와 서포트 벡터 머신 테스트 결과와 비교하여 이 실험의 결과를 종합적으로 고려했습니다.
+    </p>
+  </details>
 </ol>
