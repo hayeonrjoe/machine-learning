@@ -122,7 +122,7 @@
       이러한 결과는 Q-러닝이 의료 데이터셋에서 학습 가능하며 시간이 지남에 따라 안정적인 성과를 보일 수 있음을 시사하나, 모델의 성능은 특정 환자 집단과 데이터셋의 크기 및 품질과 같은 추가 요인의 영향을 받을 수 있습니다.
     </p>
   </details>
-        <li>자연어 처리 (Natural Learning Processing, NLP)</li>
+        <li>자연어 처리 (Natural Language Processing, NLP)</li>
   <details>
   <summary>Word2Vec을 활용한 방사선학과 병리학에서의 의미 유사성 추출 및 어휘 유추</summary>
     <p>
