@@ -145,4 +145,16 @@
       이러한 결과는 의료 분야에서 BERT 모델을 감정 분석에 더욱 효과적으로 적용하기 위해 정밀도를 높이고 혼동 행렬의 균형을 맞추는 방향으로 조정하는 것이 필요함을 시사하고 있습니다.
     </p>
   </details>
+          <li>텍스트 요약 (Summarization)</li>
+  <details>
+  <summary>BART, T5 및 Pegasus 트랜스포머 모델 간 텍스트 요약 성능 비교</summary>
+    <p>
+      BillSum 데이터셋을 활용하여 BART Fine-Tuned, T5 Fine-Tuned, 그리고 Pegasus와 같은 트랜스포머 모델들의 텍스트 요약 성능을 측정하였습니다.
+      데이터셋은 미국 의회 및 캘리포니아 주 법안의 요약을 담고 있으며, 캘리포니아 주 법안의 1237개 데이터만 사용하였습니다.
+      각 모델의 생성된 요약과 실제 요약 사이의 유사성을 평가하기 위해 ROUGE(Recall-Oriented Understudy for Gisting Evaluation) 점수를 계산하였습니다.
+      각 데이터의 ROUGE-1, ROUGE-2, ROUGE-L F1 점수를 측정하고 이를 평균하여 각 모델의 ROUGE-1, ROUGE-2, ROUGE-L F1 점수를 계산합니다.
+      T5 Fine-Tuned가 세 모델 중에서 가장 우수한 성능을 보였으며, ROUGE-1 평균 F1 점수는 0.1395, ROUGE-2 평균 F1 점수는 0.0590, ROUGE-L 평균 F1 점수는 0.1042입니다.
+      이는 T5가 세 모델 중에서 가장 작은 파라미터를 가지고 있음에도 불구하고, 다양한 문서 뿐만 아니라 해당 문서의 인간이 생성한 요약에 대해 미세 조정되었기 때문으로 생각됩니다.
+    </p>
+  </details>
 </ol>
