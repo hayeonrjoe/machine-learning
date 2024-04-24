@@ -157,4 +157,14 @@
       이는 T5가 세 모델 중에서 가장 작은 파라미터를 가지고 있음에도 불구하고, 다양한 문서 뿐만 아니라 해당 문서의 인간이 생성한 요약에 대해 미세 조정되었기 때문으로 생각됩니다.
     </p>
   </details>
+            <li>추출 요약 (Extractive Summarization)</li>
+  <details>
+  <summary>LM Studio를 활용한 Mistral 7B Instruct 및 Gemma 7B Instruct LLM 추출 요약</summary>
+    <p>
+      LM Studio를 활용하여 Mistral 7B Instruct v0.2 및 Gemma 7B Instruct LLM에게 <em>Biomarkers for immunotherapy of hepatocellular carcinoma</em> 논문 초록의 요약을 생성하도록 설정했습니다. 
+      의료 분야에서는 생성 요약보다는 추출 요약이 더 적합하다는 판단하에, <em>Extractive Summarization via ChatGPT for Faithful Summary Generation</em> 논문의 프롬프트를 활용했습니다.
+      비록 정답 요약이 없었지만, 논문 초록과 품질이 양호한 ChatGPT 생성 요약을 정답으로 삼아 추출된 단어의 관련성을 평가했습니다.
+      각 요약에 대해 ROUGE-1, ROUGE-2, ROUGE-L를 평균화하여 성능을 평가한 결과, Mistral 7B Instruct가 더 우수한 성능을 보였습니다.
+    </p>
+  </details>
 </ol>
