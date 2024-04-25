@@ -1,3 +1,6 @@
+# openai 설치
+# pip install openai 
+
 from openai import OpenAI
 
 # 파일에서 문서 텍스트를 읽어오는 함수

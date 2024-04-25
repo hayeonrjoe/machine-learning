@@ -1,3 +1,6 @@
+# rouge 설치
+# pip install rouge
+
 from rouge import Rouge
 
 # 텍스트 파일 내용을 읽어오는 함수 정의
